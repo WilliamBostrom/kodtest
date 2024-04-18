@@ -1,0 +1,49 @@
+body {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.app {
+  display: flex;
+  gap: 10px;
+}
+
+.transaction-form {
+  max-width: 250px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.transaction-form label {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  margin: 30px auto;
+}
+
+.transaction-form label input {
+  border: 1px solid black;
+}
+
+.transaction-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+.transactions {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.transaction-list {
+  border: 1px solid black;
+  padding: 20px;
+  height: 50px;
+  margin-bottom: 10px;
+}
