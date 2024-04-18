@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-function page() {
+function App() {
   const [accountId, setAccountId] = useState("");
   const [amount, setAmount] = useState("");
   const [transactions, setTransactions] = useState([]);
